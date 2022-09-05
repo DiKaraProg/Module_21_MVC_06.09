@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Module_21_MVC.Dal\Module_21_MVC.Dal.csproj" />
+    <ProjectReference Include="..\Module_21_MVC_Domain\Module_21_MVC_Domain.csproj" />
+  </ItemGroup>
+
+</Project>
